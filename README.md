@@ -46,6 +46,34 @@ It is time to discover the elements of these 2 formats and how to transform them
 
 ## PhotoFilmStrip format
 
+I need to read SQLite file `pfs`. 
+https://github.com/rusqlite/rusqlite
+VSCode extension: https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer
+
+table `picture` columns:
+filename, 
+width height, 
+start_left, start_top, start_width, start_height,
+target_left, target_top, target_width, target_height, 
+duration, comment, 
+
+what means duration=7 ? not seconds? I will have all same duration, so no problem.
+
+This is the rectangle inside the image of the original size.
+
+First image:
+C:\Users\luciano\Downloads\photofilmstrip_format\LF2023-12-11 11-07-09 Minja Luciano.jpg
+4000   3000
+0   181   4000  2250
+79  744   3920  2205
+7  ¡Hola México!
+
+Second image
+C:\Users\luciano\Downloads\photofilmstrip_format\LF2023-12-15 10-46-45 minja es alta.jpg
+2268   4032
+0   772   2268  1275
+0  1793   2268  1275
+7  Minja Alto
 
 ## Shotcut format
 
@@ -298,6 +326,38 @@ The `producer` is the video, the `tractor` is the transition. They must be defin
 The id is changing sequentially like producer0, producer1, producer2,... or tractor0, tractor1, tractor2,...
 This looks like a serialization of internal structures in the code.
 This looks like an alias to "max" `out="04:00:00.000"` or `name="length">04:00:00.033`.  
+There are 2 points in time for animation.
+
+First change the size of the image. From the original to the new.
+Then use the position to move the new image size.
+
+
+First image:
+<property name="transition.rect">00:00:00.033=-9.15305 -65.6166 1919.29 1439.47 1;00:00:02.871=-3.44725 -299.554 1919.29 1439.47 1</property>
+
+Start:  
+Position -9  -66  
+Size 1919    1439  
+
+End:  
+Position -3   -300  
+Size 1919   1439  
+
+Second image
+<property name="transition.rect">00:00:00.330=-331.909 -800 2363.06 4201 1;00:00:02.772=-331.909 -1924.05 2363.06 4201 1</property>
+
+Start:  
+Position -332  -800  
+Size  2363   4201  
+
+End  
+Position -332   -1924  
+Size  2363   4201  
+
+
+
+
+
 
 
 The subtitles are defined like this:
