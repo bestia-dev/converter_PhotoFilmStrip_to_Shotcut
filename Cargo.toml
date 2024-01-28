@@ -1,0 +1,19 @@
+[package]
+name = "converter_PhotoFilmStrip_to_Shotcut"
+version = "1.0.14"
+description = "converts PhotoFilmStrip projects to Shotcut projects"
+authors = ["bestia.dev"]
+homepage = "https://bestia.dev"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/bestia-dev/converter_PhotoFilmStrip_to_Shotcut"
+categories = ["programming"]
+keywords = ["work-in-progress Shotcut PhotoFilmStrip"]
+publish = false
+
+[dependencies]
+log = "0.4"
+pretty_env_logger="0.4.0"
+thiserror = "1.0.30"
+anyhow="1.0.56"
