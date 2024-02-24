@@ -1,5 +1,3 @@
-[//]: # (auto_md_to_doc_comments segment start A)
-
 # converter_PhotoFilmStrip_to_Shotcut  
 
 [//]: # (auto_cargo_toml_to_md start)
@@ -9,12 +7,16 @@
 
 [//]: # (auto_cargo_toml_to_md end)
 
- ![status](https://img.shields.io/badge/work_in_progress-yellow)
+  ![work_in_progress](https://img.shields.io/badge/work_in_progress-yellow)
+
+
 
 [//]: # (auto_lines_of_code start)
 
 [//]: # (auto_lines_of_code end)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/converter_PhotoFilmStrip_to_Shotcut/blob/master/LICENSE)
+
+ [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/converter_PhotoFilmStrip_to_Shotcut/blob/master/LICENSE)
+  ![converter_PhotoFilmStrip_to_Shotcut](https://bestia.dev/webpage_hit_counter/get_svg_image/1287912941.svg)
 
 Hashtags: #rustlang #tutorial #sqlite #xml #cli  
 My projects on GitHub are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
@@ -57,5 +59,3 @@ So I can drink a free beer for your health :-)
 [//github.com/bestia-dev](https://github.com/bestia-dev)  
 [//bestiadev.substack.com](https://bestiadev.substack.com)  
 [//youtube.com/@bestia-dev-tutorials](https://youtube.com/@bestia-dev-tutorials)  
-
-[//]: # (auto_md_to_doc_comments segment end A)
