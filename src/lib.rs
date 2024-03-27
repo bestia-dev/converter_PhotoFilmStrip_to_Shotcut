@@ -172,7 +172,7 @@
 //!     run_shell_command("rsync -a --info=progress2 --delete-after target/doc/ docs/");
 //!     // Create simple index.html file in docs directory
 //!     run_shell_command(&format!(
-//!         "echo \"<meta http-equiv=\\\"refresh\\\" content=\\\"0; url={}/index.html\\\" />\" > docs/index.html",
+//!         "printf \"<meta http-equiv=\\\"refresh\\\" content=\\\"0; url={}/index.html\\\" />\\n\" > docs/index.html",
 //!         cargo_toml.package_name().replace("-","_")
 //!     ));
 //!     run_shell_command("cargo fmt");
