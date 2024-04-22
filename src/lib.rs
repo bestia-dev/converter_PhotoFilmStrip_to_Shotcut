@@ -17,7 +17,7 @@
 //! [![crev reviews](https://web.crev.dev/rust-reviews/badge/crev_count/cargo-auto.svg)](https://web.crev.dev/rust-reviews/crate/cargo-auto/)
 //! [![Lib.rs](https://img.shields.io/badge/Lib.rs-rust-orange.svg)](https://lib.rs/crates/cargo-auto/)
 //! [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/automation-tasks-rs/cargo-auto/blob/master/LICENSE)
-//! [![Rust](https://github.com/automation-tasks-rs/cargo-auto/workflows/RustAction/badge.svg)](https://github.com/automation-tasks-rs/cargo-auto/)
+//! [![Rust](https://github.com/automation-tasks-rs/cargo-auto/workflows/rust_fmt_auto_build_test/badge.svg)](https://github.com/automation-tasks-rs/cargo-auto/)
 //! ![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/959103982.svg)
 //!
 //! Hashtags: #rustlang #tutorial #buildtool #developmenttool #cli  
